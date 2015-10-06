@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  icsApp
+//
+//  Created by Jobelle Vallega on 6/8/15.
+//  Copyright (c) 2015 Jobelle Vallega. All rights reserved.
+//
+
+#ifndef icsApp_PrefixHeader_pch
+#define icsApp_PrefixHeader_pch
+
+#import <AFNetworking/AFNetworking.h>
+#import "MyRequestHelper.h"
+#import "ArticleObj.h"
+#import "GlobalConfig.h"
+#import "Constants.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UIView+Toast.h"
+#import "DateHelper.h"
+#import "ArticleModel.h" 
+#import <MagicalRecord/MagicalRecord.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
