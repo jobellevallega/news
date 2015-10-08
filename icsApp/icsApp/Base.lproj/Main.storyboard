@@ -359,6 +359,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="penn-splash.png" width="527" height="78"/>
+        <image name="penn-splash.png" width="523" height="92"/>
     </resources>
 </document>

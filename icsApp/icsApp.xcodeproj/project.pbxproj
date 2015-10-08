@@ -81,7 +81,7 @@
 		EE3245C11B5FA84600F34244 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
 		EE3245C31B5FA8B800F34244 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
 		EE3245C41B5FA8B800F34244 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
-		EE4BCE9E1B25608000E23B8C /* PennRecordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennRecordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4BCE9E1B25608000E23B8C /* LARecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LARecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4BCEA21B25608000E23B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE4BCEA31B25608000E23B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE4BCEA51B25608000E23B8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		EE4BCE9F1B25608000E23B8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE4BCE9E1B25608000E23B8C /* PennRecordApp.app */,
+				EE4BCE9E1B25608000E23B8C /* LARecord.app */,
 				EE4BCEBA1B25608000E23B8C /* icsAppTests.xctest */,
 			);
 			name = Products;
@@ -362,7 +362,7 @@
 			);
 			name = icsApp;
 			productName = icsApp;
-			productReference = EE4BCE9E1B25608000E23B8C /* PennRecordApp.app */;
+			productReference = EE4BCE9E1B25608000E23B8C /* LARecord.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EE4BCEB91B25608000E23B8C /* icsAppTests */ = {
@@ -595,7 +595,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "6cb333f7-a6bd-49e9-b8cf-649696b84d24";
+				PROVISIONING_PROFILE = "28089922-9077-4729-9e80-f8d9b3f01d90";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -634,7 +634,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "6cb333f7-a6bd-49e9-b8cf-649696b84d24";
+				PROVISIONING_PROFILE = "28089922-9077-4729-9e80-f8d9b3f01d90";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -646,14 +646,14 @@
 			baseConfigurationReference = E855E13CC18712286E99F4A2 /* Pods-icsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				GCC_PREFIX_HEADER = icsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = icsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = PennRecordApp;
-				PROVISIONING_PROFILE = "6cb333f7-a6bd-49e9-b8cf-649696b84d24";
+				PRODUCT_NAME = LARecord;
+				PROVISIONING_PROFILE = "28089922-9077-4729-9e80-f8d9b3f01d90";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -663,14 +663,14 @@
 			baseConfigurationReference = 128F914A3462019E91FDD69A /* Pods-icsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				GCC_PREFIX_HEADER = icsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = icsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = PennRecordApp;
-				PROVISIONING_PROFILE = "6cb333f7-a6bd-49e9-b8cf-649696b84d24";
+				PRODUCT_NAME = LARecord;
+				PROVISIONING_PROFILE = "28089922-9077-4729-9e80-f8d9b3f01d90";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

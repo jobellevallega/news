@@ -22,13 +22,7 @@
 #define _API_BASE_URL                           @"https://pipeline-api.locallabs.com"
 #define _AUTHORIZATION_KEY                      @"Dq2LyMpU1nyhy5q8ST81"
 
-#define _APP_NAME                               @"Penn Record"
-
-#define _API_URL_SUFFIX_FEATURED            @"/api/v1/stories?status=published&sub_types=111&by_community=542"
-#define _API_URL_SUFFIX_LATEST              @"/api/v1/stories?status=published&sub_types=114&by_community=542"
-#define _API_URL_SUFFIX_OUR_VIEW            @"";
-#define _API_URL_SUFFIX_THEIR_VIEW          @"";
-#define _API_URL_SUFFIX_LETTER              @"";
+#define _APP_NAME                               @"Louissiana Record"
 
 
 /* ics app */
@@ -45,12 +39,12 @@
 
 
 /* Louis */
-/*
+
 #define _API_URL_SUFFIX_FEATURED            @"/api/v1/stories?status=published&sub_types=114&by_community=543"
 #define _API_URL_SUFFIX_LATEST              @"/api/v1/stories?status=published&sub_types=111&by_community=543"
 #define _API_URL_SUFFIX_OUR_VIEW            @""
 #define _API_URL_SUFFIX_THEIR_VIEW          @"/api/v1/stories?status=published&sub_types=546&by_community=543"
-#define _API_URL_SUFFIX_LETTER              @"/api/v1/stories?status=published&sub_types=547&by_community=543"*/
+#define _API_URL_SUFFIX_LETTER              @"/api/v1/stories?status=published&sub_types=547&by_community=543"
 
 /* Madison */
 /*
