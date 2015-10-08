@@ -38,17 +38,17 @@
     }
     else if (type == story_arg_letter){
         
-        stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_LETTER, perPage, page ];
+      // stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_LETTER, perPage, page ];
        
     }
     else if (type == story_arg_our_view){
         
-        stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_OUR_VIEW, perPage, page ];
+        //stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_OUR_VIEW, perPage, page ];
         
     }
     else if (type == story_arg_their_view){
         
-        stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_THEIR_VIEW, perPage, page ];
+       // stringURL = [NSString stringWithFormat:@"%@%@&per_page=%@&page=%@", _API_BASE_URL,_API_URL_SUFFIX_THEIR_VIEW, perPage, page ];
         
     }
 
