@@ -175,7 +175,7 @@
     }
     else if (self.segmentControl.selectedSegmentIndex == 2) {
         NSLog(@"Selected Arguments");
-        [self presentActionSheetWithOptionsHasLetter:YES orHasOurView:YES orHasTheirView:YES];
+        [self presentActionSheetWithOptionsHasLetter:YES orHasOurView:NO orHasTheirView:YES];
     }
 
 
