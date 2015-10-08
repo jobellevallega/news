@@ -123,7 +123,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UxY-9s-kiV" userLabel="header">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="lGy-Nu-siU">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="legal-splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="lGy-Nu-siU">
                                         <rect key="frame" x="0.0" y="20" width="320" height="32"/>
                                     </imageView>
                                     <searchBar contentMode="redraw" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hM2-ek-l1L">
@@ -143,7 +143,6 @@
                                         <segments>
                                             <segment title="Featured"/>
                                             <segment title="Latest"/>
-                                            <segment title="Arguments"/>
                                         </segments>
                                         <color key="tintColor" red="0.57254901960000004" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -263,7 +262,7 @@
                                             <constraint firstItem="NBe-Wd-bWU" firstAttribute="leading" secondItem="2G0-y0-05k" secondAttribute="leading" constant="13" id="hN8-kC-P4A"/>
                                         </constraints>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhn-3i-gRL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="legal-splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhn-3i-gRL">
                                         <rect key="frame" x="20" y="20" width="320" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="wzB-aR-SbV"/>
@@ -360,6 +359,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo.png" width="1051" height="249"/>
+        <image name="legal-splash.png" width="518" height="100"/>
     </resources>
 </document>
