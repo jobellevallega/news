@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		EE073EFB1B257A3F00DEE903 /* MainListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE073EFA1B257A3F00DEE903 /* MainListTableViewCell.m */; };
 		EE0D90701B5D762B007BA663 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0D906F1B5D762B007BA663 /* logo.png */; };
+		EE1DE1991BC6697E00C1E991 /* wvrecord-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1DE1981BC6697E00C1E991 /* wvrecord-splash.png */; };
+		EE1DE19D1BC66AF600C1E991 /* _58.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1DE19A1BC66AF600C1E991 /* _58.png */; };
+		EE1DE19E1BC66AF600C1E991 /* _80.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1DE19B1BC66AF600C1E991 /* _80.png */; };
+		EE1DE19F1BC66AF600C1E991 /* _120.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1DE19C1BC66AF600C1E991 /* _120.png */; };
+		EE1DE1A11BC66B6600C1E991 /* _180.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1DE1A01BC66B6600C1E991 /* _180.png */; };
 		EE3245BF1B5FA70800F34244 /* NSObject+APObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3245BE1B5FA70800F34244 /* NSObject+APObjectMapping.m */; };
 		EE3245C21B5FA84600F34244 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3245C11B5FA84600F34244 /* ArticleModel.m */; };
 		EE3245C51B5FA8B800F34244 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3245C41B5FA8B800F34244 /* DateHelper.m */; };
@@ -57,13 +62,18 @@
 		EE073EF91B257A3F00DEE903 /* MainListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListTableViewCell.h; sourceTree = "<group>"; };
 		EE073EFA1B257A3F00DEE903 /* MainListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListTableViewCell.m; sourceTree = "<group>"; };
 		EE0D906F1B5D762B007BA663 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EE1DE1981BC6697E00C1E991 /* wvrecord-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wvrecord-splash.png"; path = "iconsNew/wvrecord-splash.png"; sourceTree = "<group>"; };
+		EE1DE19A1BC66AF600C1E991 /* _58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _58.png; path = iconsNew/_58.png; sourceTree = "<group>"; };
+		EE1DE19B1BC66AF600C1E991 /* _80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _80.png; path = iconsNew/_80.png; sourceTree = "<group>"; };
+		EE1DE19C1BC66AF600C1E991 /* _120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _120.png; path = iconsNew/_120.png; sourceTree = "<group>"; };
+		EE1DE1A01BC66B6600C1E991 /* _180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _180.png; path = iconsNew/_180.png; sourceTree = "<group>"; };
 		EE3245BD1B5FA70800F34244 /* NSObject+APObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+APObjectMapping.h"; sourceTree = "<group>"; };
 		EE3245BE1B5FA70800F34244 /* NSObject+APObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+APObjectMapping.m"; sourceTree = "<group>"; };
 		EE3245C01B5FA84600F34244 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
 		EE3245C11B5FA84600F34244 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
 		EE3245C31B5FA8B800F34244 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
 		EE3245C41B5FA8B800F34244 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
-		EE4BCE9E1B25608000E23B8C /* icsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4BCE9E1B25608000E23B8C /* wvrecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wvrecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4BCEA21B25608000E23B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE4BCEA31B25608000E23B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE4BCEA51B25608000E23B8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +150,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE1DE1971BC6696E00C1E991 /* icons and asssets */ = {
+			isa = PBXGroup;
+			children = (
+				EE1DE1A01BC66B6600C1E991 /* _180.png */,
+				EE1DE19A1BC66AF600C1E991 /* _58.png */,
+				EE1DE19B1BC66AF600C1E991 /* _80.png */,
+				EE1DE19C1BC66AF600C1E991 /* _120.png */,
+				EE1DE1981BC6697E00C1E991 /* wvrecord-splash.png */,
+			);
+			name = "icons and asssets";
+			sourceTree = "<group>";
+		};
 		EE3245B91B5FA67F00F34244 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +179,7 @@
 		EE4BCE951B25608000E23B8C = {
 			isa = PBXGroup;
 			children = (
+				EE1DE1971BC6696E00C1E991 /* icons and asssets */,
 				EE4BCEA01B25608000E23B8C /* icsApp */,
 				EE4BCEBD1B25608000E23B8C /* icsAppTests */,
 				EE4BCE9F1B25608000E23B8C /* Products */,
@@ -168,7 +191,7 @@
 		EE4BCE9F1B25608000E23B8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE4BCE9E1B25608000E23B8C /* icsApp.app */,
+				EE4BCE9E1B25608000E23B8C /* wvrecord.app */,
 				EE4BCEBA1B25608000E23B8C /* icsAppTests.xctest */,
 			);
 			name = Products;
@@ -327,7 +350,7 @@
 			);
 			name = icsApp;
 			productName = icsApp;
-			productReference = EE4BCE9E1B25608000E23B8C /* icsApp.app */;
+			productReference = EE4BCE9E1B25608000E23B8C /* wvrecord.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EE4BCEB91B25608000E23B8C /* icsAppTests */ = {
@@ -392,12 +415,17 @@
 			files = (
 				EE5B40F01B32C07B006FF09D /* 87.png in Resources */,
 				EE4BCEB01B25608000E23B8C /* Main.storyboard in Resources */,
+				EE1DE1991BC6697E00C1E991 /* wvrecord-splash.png in Resources */,
 				EE5B40EF1B32C07B006FF09D /* 80.png in Resources */,
 				EE5B40F11B32C07B006FF09D /* 120.png in Resources */,
 				EE0D90701B5D762B007BA663 /* logo.png in Resources */,
+				EE1DE19D1BC66AF600C1E991 /* _58.png in Resources */,
 				EE5B40F21B32C07B006FF09D /* 152.png in Resources */,
+				EE1DE19E1BC66AF600C1E991 /* _80.png in Resources */,
 				EE5B40F31B32C07B006FF09D /* 180.png in Resources */,
 				EE5B40F41B32C07B006FF09D /* 228.png in Resources */,
+				EE1DE19F1BC66AF600C1E991 /* _120.png in Resources */,
+				EE1DE1A11BC66B6600C1E991 /* _180.png in Resources */,
 				EE4BCEB51B25608000E23B8C /* LaunchScreen.xib in Resources */,
 				EE4BCEB21B25608000E23B8C /* Images.xcassets in Resources */,
 				EE5B40FA1B32C24E006FF09D /* placeHolderBig.png in Resources */,
@@ -527,7 +555,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -549,6 +578,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "01685aae-f0ac-446f-8c4e-18576c410900";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -571,7 +601,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -586,6 +617,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "01685aae-f0ac-446f-8c4e-18576c410900";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -596,11 +628,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E855E13CC18712286E99F4A2 /* Pods-icsApp.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				GCC_PREFIX_HEADER = icsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = icsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = wvrecord;
+				PROVISIONING_PROFILE = "01685aae-f0ac-446f-8c4e-18576c410900";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -609,11 +645,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 128F914A3462019E91FDD69A /* Pods-icsApp.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Record, Inc.  (FE9V229C95)";
 				GCC_PREFIX_HEADER = icsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = icsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = wvrecord;
+				PROVISIONING_PROFILE = "01685aae-f0ac-446f-8c4e-18576c410900";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
