@@ -22,7 +22,7 @@
 #define _API_BASE_URL                           @"https://pipeline-api.locallabs.com"
 #define _AUTHORIZATION_KEY                      @"Dq2LyMpU1nyhy5q8ST81"
 
-#define _APP_NAME                               @"Legal News"
+#define _APP_NAME                               @"Madison Record"
 
 
 /* ics app */
@@ -30,11 +30,13 @@
 //#define _API_URL_SUFFIX_LATEST                  @"/api/v1/stories?status=published&sub_types=515&by_community=1129"
 
 /* LNL */
+/*
 #define _API_URL_SUFFIX_FEATURED            @"/api/v1/stories?status=published&sub_types=111&by_community=656"
 #define _API_URL_SUFFIX_LATEST              @"/api/v1/stories?status=published&sub_types=114&by_community=656"
 #define _API_URL_SUFFIX_OUR_VIEW            @""
 #define _API_URL_SUFFIX_THEIR_VIEW          @""
 #define _API_URL_SUFFIX_LETTER              @""
+ */
 
 /* PENN */
 /*#define _API_URL_SUFFIX_FEATURED            @"/api/v1/stories?status=published&sub_types=111&by_community=542"
@@ -60,12 +62,12 @@
 #define _API_URL_SUFFIX_LETTER              @"/api/v1/stories?status=published&sub_types=547&by_community=543"*/
 
 /* Madison */
-/*
+
 #define _API_URL_SUFFIX_FEATURED            @"/api/v1/stories?status=published&sub_types=114&by_community=432"
 #define _API_URL_SUFFIX_LATEST              @"/api/v1/stories?status=published&sub_types=111&by_community=432"
 #define _API_URL_SUFFIX_OUR_VIEW            @"/api/v1/stories?status=published&sub_types=545&by_community=432"
 #define _API_URL_SUFFIX_THEIR_VIEW          @"/api/v1/stories?status=published&sub_types=546&by_community=432"
-#define _API_URL_SUFFIX_LETTER              @"/api/v1/stories?status=published&sub_types=547&by_community=432"*/
+#define _API_URL_SUFFIX_LETTER              @"/api/v1/stories?status=published&sub_types=547&by_community=432"
 
 /* Setexas */
 /*
